@@ -47,5 +47,17 @@ pipeline{
         }
         
     }
+    post{
+        always{
+            echo "learning jenkins"
+        }
+         success{
+            echo "when pipeline sucess learning jenkins"
+        }
+         failure{
+            echo "when pipeline faild learning jenkins"
+        }
+    }
+    }
     
 }
