@@ -58,6 +58,6 @@ pipeline{
             echo "when pipeline faild learning jenkins"
         }
     }
-    }
+    
     
 }
